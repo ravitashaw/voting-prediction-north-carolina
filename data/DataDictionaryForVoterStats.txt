@@ -1,0 +1,62 @@
+/***********************************************************************************
+* name:     voter_stats_20161108.txt
+* purpose:  Information related to voter registration statistics.
+***********************************************************************************/
+
+
+*****Note: some of the precincts contain "#". R doesn't particular like that by default since "#" is mainly used to comment. Read the data into R using: read.table("voter_stats_20161108.txt", header = TRUE,comment.char = ""), where comment.char changes the default meaning of "#" in the dataset. 
+
+------------------------------------------------------------------------------------
+-- File format: TAB delimited
+------------------------------------------------------------------------------------
+Voter stats table:
+county_desc			varchar(15)		Description of the county
+election_date			varchar(10)		Date of the election
+stats_type			varchar(10) 		Voter or not
+precinct_abbrv			char(6) 		Precincts: the lowest-level of grouping for a city, town or county. The county commission divides the county into precincts for the purpose of voting. A precinct must have visible, definable and observable physical boundaries that conform to standards set by the U.S. Bureau of the Census for defining census blocks for their census.
+vtd_abbrv			char(6)			Voting districts as defined by the US Census to include the wide variety of small polling areas, such as election districts, precincts, or wards, that State and local governments create for the purpose of administering elections. The voting districts are not strictly equal to the precincts so that multiple precincts can map to the same voting district. 
+party_cd			char(3)  		Party affiliation
+race_code			char(3) 		Race
+ethnic_code			char(3) 		Hispanic origin
+sex_code			varchar(1) 		Gender
+age				varchar(32) 		Age groups
+total_voters			int			Total number of registered voters within groups
+
+
+------------------------------------------------------------------------------------
+
+Race_code:
+
+label	description
+B  	BLACK or AFRICAN AMERICAN                                   
+I  	AMERICAN INDIAN or ALASKA NATIVE                            
+O  	OTHER                                                       
+W  	WHITE                                                       
+U  	UNDESIGNATED                                                
+A  	ASIAN                                                       
+M  	TWO or MORE RACES                                           
+
+Ethnic_code:
+
+label	description
+HL 	HISPANIC or LATINO
+NL 	NOT HISPANIC or NOT LATINO
+UN 	UNDESIGNATED
+
+Gender_code:
+
+label	description
+F 	FEMALE
+M 	MALE
+U 	UNDESIGNATED
+
+Party_cd:
+
+label	description
+DEM 	DEMOCRAT
+LIB 	LIBERTARIAN
+REP 	REPUBLICAN
+UNA	UNAFFILIATED
+
+
+
