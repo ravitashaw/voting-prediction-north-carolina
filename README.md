@@ -1,6 +1,9 @@
 # voting-prediction-north-carolina
 Prediction of Likely Voters in North Carolina using Multilevel Hierarchical Model
 
+## Model
+![Final Model](https://github.com/ravitashaw/voting-prediction-north-carolina/blob/master/eda/model.png)
+
 ## EDA
 
 ### Age with Voting Turnout Converges and Diverge later
@@ -9,5 +12,3 @@ Prediction of Likely Voters in North Carolina using Multilevel Hierarchical Mode
 ### Voting Turnout wrt County (only 20 counties shown)
 ![Voter Turnout per County](https://github.com/ravitashaw/voting-prediction-north-carolina/blob/master/eda/eda_county.png)
 
-## Model
-![Final Model](https://github.com/ravitashaw/voting-prediction-north-carolina/blob/master/eda/model.png)
