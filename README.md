@@ -1,5 +1,6 @@
 # voting-prediction-north-carolina
-Prediction of Likely Voters in North Carolina using Multilevel Hierarchical Model
+Prediction of Likely Voters in North Carolina using Multilevel Hierarchical Model.
+This was a team effort.
 
 ## Model
 ![Final Model](https://github.com/ravitashaw/voting-prediction-north-carolina/blob/master/eda/model.png)
